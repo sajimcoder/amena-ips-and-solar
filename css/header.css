@@ -54,3 +54,6 @@
   border: 2px solid #3956fc;
   box-shadow: 0 0 30px rgb(173, 173, 173);
 }
+.hero-image :hover{
+  box-shadow: 0px 0px 10px #001d20;
+}
