@@ -1,3 +1,12 @@
+body{
+  max-width: 100%;
+ 
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .product-cart{
   display: flex;
   align-items: center;
@@ -6,7 +15,7 @@
 }
 .product-head{
   text-align: center;
-  padding: 50px;
+  padding: 0 0 50px;
   background-color: #f2f2f2;
   color: #333;
   font-size: 15px;
@@ -15,5 +24,63 @@
 }
 .product-h2{
   font-size: 2.5em;
+  margin-top: 15px;
   
 }
+
+.card{
+  width: 300px;
+  border: 2px solid #00e1ff;
+  padding: 15px;
+  border-radius: 50px;
+  margin:  20px 10px;
+  background-color: #004869;
+  box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.699);
+}
+.card img{
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  
+}
+.card-description{
+  color: #fff9a1;
+  font-size: 13px;
+  margin-top: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-price{
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-title{
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-button{
+  padding: 5px;
+  background-color: #00e1ff;
+  border-radius: 50px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 90px;
+}
+
+.card:hover {
+  background-color: #8a4e00;
+  box-shadow: 0px 0px 20px  #8a4e00;
+  border: 2px solid #ffb24e;
+}
+
+
+
+.card-button:hover {
+  background-color: #ffb24e;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 20px  #ffb24e;
+}
+
+
